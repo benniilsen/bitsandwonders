@@ -1,28 +1,10 @@
 baseURL = "https://bitsandwonder.com/"
 languageCode = "en-us"
 title = "Bits and Wonder"
-theme = "PaperMod"
 
 [module]
   [[module.imports]]
     path = "github.com/adityatelange/hugo-PaperMod"
-```
-
-And **delete** the `theme = "PaperMod"` line since the module import replaces it.
-
-**Step 3: Commit and push through GitHub Desktop**
-
-1. Open GitHub Desktop
-2. You should see the changes listed
-3. Commit with message "Switch to Hugo modules for theme"
-4. Click Push
-
-**Step 4: Later, when we set up Cloudflare Pages**
-
-We'll set the build command to:
-```
-hugo mod get && hugo
-
 
 [params]
   description = "Exploring the stories behind everyday life"
@@ -52,8 +34,3 @@ hugo mod get && hugo
 [taxonomies]
   category = "categories"
   tag = "tags"
-```
-
-**Step 9: Create Your First Article**
-```
-hugo new content/articles/why-do-we-shake-hands.md
