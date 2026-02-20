@@ -2,7 +2,7 @@ baseURL = "https://bitsandwonder.com/"
 languageCode = "en-us"
 title = "Bits and Wonder"
 theme = "PaperMod"
-
+ 
 [params]
   description = "Exploring the stories behind everyday life"
   ShowReadingTime = true
